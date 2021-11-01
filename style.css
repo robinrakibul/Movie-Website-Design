@@ -93,7 +93,7 @@ body{
 }
 
 .sidebar{
-    width: 50px;
+    width: 40px;
     height: 100%;
     background-color: black;
     position: fixed;
@@ -108,4 +108,37 @@ body{
     color: white;
     font-size: 20px;
     margin-bottom: 50px;
+}
+
+.container{
+    background-color: #151515;
+    height: 100vh;
+}
+
+.featured-content{
+    height: 50vh;
+    padding: 50px;
+}
+
+.featured-title{
+    width: 200px;
+    margin-left: 20px;
+}
+
+.featured-desc{
+    width: 500px;
+    color: lightgray;
+    margin: 30px 20px 0;    
+}
+
+.featured-button{
+    background-color: lime;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
 }
