@@ -52,7 +52,14 @@ body{
 .menu-list-item.active{
     font-weight: bold;
 }
+
 .profile-container{
     flex: 2;
+}
+.profile-picture{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
